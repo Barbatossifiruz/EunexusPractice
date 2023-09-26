@@ -1,0 +1,13 @@
+{
+    "name": "eunexuspractice",
+    "version": "1.0.0",
+    "description": "Project for practice my skills on Html and Css",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Elio Soto",
+    "license": "ISC",
+    "homepage":"https://github.com/Barbatossifiruz/EunexusPractice"
+}
