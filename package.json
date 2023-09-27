@@ -9,5 +9,8 @@
     "keywords": [],
     "author": "Elio Soto",
     "license": "ISC",
-    "homepage":"https://github.com/Barbatossifiruz/EunexusPractice"
+    "homepage": "https://github.com/Barbatossifiruz/EunexusPractice",
+    "devDependencies": {
+        "tailwindcss": "^3.3.3"
+    }
 }
