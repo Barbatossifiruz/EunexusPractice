@@ -23,24 +23,13 @@
 
 /* ! Hero Section */
 
-/* #hero {
-    background-image: url(../assets/img/banner-home.jpg);
-    height: 500px;
-    text-align: left;
-    background-repeat: no-repeat;
-    background-position: right;
-} */
-
 #hero {
     background-image: url(../assets/img/banner-home.jpg);
-    background-size: 400px;
-    height: 155px;
-    /* background-size: cover; */
+    background-size: 800px;
+    height: 400px;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: center;
-    background-position-y: top;
-    background-position: right;
+    background-position-x: right;
 }
 
 /* ! Hero Section */
