@@ -7,38 +7,45 @@
     <title>Eunexus Enterprice</title>
     <link href="/dist/output.css" rel="stylesheet">
     <link href="/src/css/input.css" rel="stylesheet">
+    <!--! Icons - Ionic -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
     <header>
-        <nav class="header sticky top-0 shadow-md w-full flex bg-white">
-            <div class="w-1/4 p-3 flex justify-center ">
-                <img id="logo" src="/src/assets/img/header-logo.png" alt="Eunexus Logo">
+        <nav class="p-5 shadow bg-white md:flex md:items-center md:justify-between">
+            <div class="flex justify-between items-center">
+                <img class="inline px-2 lg:w-full h-8" id="logo" src="/src/assets/img/header-logo.png"
+                    alt="Eunexus Logo">
+                <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+                    <ion-icon name="menu"></ion-icon>
+                </span>
             </div>
             <ul
-                class="font-semibold text-md p-3 flex justify-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto">
-                <li class="li-hover md:my-0 ">
-                    <a href="/">Home</a>
-                </li>
-
-                <li class="li-hover md:my-0">
-                    <a href="#company">Company</a>
-                </li>
-
-                <li class="li-hover md:my-0">
-                    <a href="#services">Services</a>
-                </li>
-
-                <li class="li-hover md:my-0">
-                    <a href="#intelligence">Intelligence</a>
-                </li>
-
-                <li class="li-hover md:my-0">
-                    <a href="#news">News</a>
+                class="md:flex md:items-center lg:mr-[25%] z-[-1] md:z-auto md:static absolute bg-white w-full left-0  md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+                <li class="li-hover">
+                    <a class="a-hover" href="/">Home</a>
                 </li>
 
                 <li class="li-hover">
-                    <a href="#contact">Contact</a>
+                    <a class="a-hover" href="#company">Company</a>
+                </li>
+
+                <li class="li-hover">
+                    <a class="a-hover" href="#services">Services</a>
+                </li>
+
+                <li class="li-hover">
+                    <a class="a-hover" href="#intelligence">Intelligence</a>
+                </li>
+
+                <li class="li-hover">
+                    <a class="a-hover" href="#news">News</a>
+                </li>
+
+                <li class="li-hover">
+                    <a class="a-hover" href="#contact">Contact</a>
                 </li>
 
             </ul>
