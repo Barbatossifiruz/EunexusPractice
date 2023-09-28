@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* * Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap");
+
 /* * Style scrollbar config */
 
 ::-webkit-scrollbar {
@@ -17,30 +20,27 @@
 
 /* ! Styles */
 
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 .li-hover {
-    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-orange-500 duration-300 px-8;
+    @apply mx-4 my-6 md:my-0;
+}
+
+.a-hover {
+    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-orange-500 duration-300;
 }
 
 /* ! Hero Section */
 
-/* #hero {
-    background-image: url(../assets/img/banner-home.jpg);
-    height: 500px;
-    text-align: left;
-    background-repeat: no-repeat;
-    background-position: right;
-} */
-
 #hero {
     background-image: url(../assets/img/banner-home.jpg);
-    background-size: 400px;
-    height: 155px;
-    /* background-size: cover; */
+    background-size: 800px;
+    height: 400px;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: center;
-    background-position-y: top;
-    background-position: right;
+    background-position-x: right;
 }
 
 /* ! Hero Section */
