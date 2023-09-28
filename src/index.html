@@ -15,25 +15,25 @@
             <div class="w-1/4 p-3 flex justify-center ">
                 <img id="logo" src="/src/assets/img/header-logo.png" alt="Eunexus Logo">
             </div>
-            <ul class="w-3/4 font-semibold text-md p-3 flex justify-center">
-
-                <li class="li-hover">
+            <ul
+                class="font-semibold text-md p-3 flex justify-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto">
+                <li class="li-hover md:my-0 ">
                     <a href="/">Home</a>
                 </li>
 
-                <li class="li-hover">
+                <li class="li-hover md:my-0">
                     <a href="#company">Company</a>
                 </li>
 
-                <li class="li-hover">
+                <li class="li-hover md:my-0">
                     <a href="#services">Services</a>
                 </li>
 
-                <li class="li-hover">
+                <li class="li-hover md:my-0">
                     <a href="#intelligence">Intelligence</a>
                 </li>
 
-                <li class="li-hover">
+                <li class="li-hover md:my-0">
                     <a href="#news">News</a>
                 </li>
 
@@ -45,17 +45,33 @@
         </nav>
         <section id="hero" class="w-full text-white flex justify-center bg-[#12192C]">
             <div class="container m-auto">
-                <p class="text-4xl text-orange-600 font-regular">GLOBAL</p>
+                <p class="text-4xl text-orange-600 font-regular py-3">GLOBAL</p>
                 <h1 class="text-5xl text-white
                 ">
                     FRAUD INTTELIGENCE
                 </h1>
-                <p>we aim to source and deliver targeted fraud intelligence to our
+                <p class="text-2xl py-3 mr-[40%]">we aim to source and deliver targeted fraud intelligence to our
                     clients, which allows them to significantly improve their fraud
                     detection results and reduce losses.
                 </p>
-                <button>CONTACT US</button>
-                <button>ABOUT US</button>
+                <div class="flex p-4 justify-start">
+                    <div class="px-4">
+                        <button
+                            class="text-lg font-medium text-white bg-orange-500 border-2 border-orange-500 px-12 py-2 rounded-full hover:text-orange-500 group relative flex items-center overflow-hidden">
+                            <span
+                                class="absolute left-0 w-full h-0 transition-all bg-white opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
+                            <span class="relative">CONTACT US</span>
+                        </button>
+                    </div>
+                    <div class="px-4">
+                        <button
+                            class="text-lg font-medium text-black bg-white border-2  px-12 py-2 rounded-full hover:text-white group relative flex items-center overflow-hidden">
+                            <span
+                                class="absolute left-0 w-full h-0 transition-all bg-orange-500 opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
+                            <span class="relative">ABOUT US</span>
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
 
