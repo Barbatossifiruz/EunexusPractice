@@ -14,14 +14,15 @@
 
 <body>
     <header>
-        <nav class="navBar">
+        <nav class="nav-Bar">
             <div class="logo-item">
                 <img class="logo-img" id="logo" src="/src/assets/img/header-logo.png" alt="Eunexus Logo">
-                <span class="icon-menu">
+                <span class="text-3xl cursor-pointer mx-2 md:hidden block">
                     <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
                 </span>
             </div>
-            <ul class="ul-item">
+            <ul
+                class="md:flex md:items-center z-40 md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 lg:mr-[25%]">
                 <li class="li-hover">
                     <a class="a-hover" href="/">Home</a>
                 </li>
@@ -50,7 +51,7 @@
         </nav>
         <section id="hero" class="hero-section">
             <div class="hero-title">
-                <h1 class="First-title">
+                <h1 class="first-title">
                     GLOBAL</h1>
                 <h2 class="second-title">
                     FRAUD INTTELIGENCE
@@ -64,14 +65,18 @@
                 </p>
                 <div class="btn-container">
                     <div class="btn">
-                        <button class="btn-orange">
-                            <span class="btn-orange-hover"></span>
+                        <button
+                            class="text-sm lg:text-lg  text-white bg-orange-500 border-2 border-orange-500 px-12 lg:px-12 lg:py-2 rounded-full hover:text-orange-500 group relative flex items-center overflow-hidden">
+                            <span
+                                class="absolute left-0 w-full h-0 transition-all bg-white opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
                             <span class="relative">CONTACT US</span>
                         </button>
                     </div>
                     <div class="btn">
-                        <button class="btn-white">
-                            <span class="btn-white-hover"></span>
+                        <button
+                            class="text-sm lg:text-lg  text-black bg-white border-2 lg:px12 px-12 lg:py-2 rounded-full hover:text-white group relative flex items-center overflow-hidden">
+                            <span
+                                class="absolute left-0 w-full h-0 transition-all bg-orange-500 opacity-100 group-hover:h-full group-hover:top-0 duration-400"></span>
                             <span class="relative">ABOUT US</span>
                         </button>
                     </div>
