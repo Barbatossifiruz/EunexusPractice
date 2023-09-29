@@ -14,16 +14,14 @@
 
 <body>
     <header>
-        <nav class="z-10 p-5 sticky top-0 bg-white shadow md:flex md:items-center md:justify-between">
-            <div class="flex justify-between items-center">
-                <img class="inline px-2 lg:w-full h-8" id="logo" src="/src/assets/img/header-logo.png"
-                    alt="Eunexus Logo">
-                <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+        <nav class="navBar">
+            <div class="logo-item">
+                <img class="logo-img" id="logo" src="/src/assets/img/header-logo.png" alt="Eunexus Logo">
+                <span class="icon-menu">
                     <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
                 </span>
             </div>
-            <ul
-                class="md:flex md:items-center z-40 md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 lg:mr-[25%]">
+            <ul class="ul-item">
                 <li class="li-hover">
                     <a class="a-hover" href="/">Home</a>
                 </li>
@@ -50,35 +48,30 @@
 
             </ul>
         </nav>
-        <section id="hero" class=" lg:w-full text-white flex justify-center bg-[#12192C]">
-            <div class="container m-auto">
-                <p class="text-2xl text-center mx-auto lg:text-start lg:text-4xl text-orange-600 font-regular py-3">
-                    GLOBAL</p>
-                <h1 class="text-5xl text-white text-center mx-auto lg:text-start
-                ">
+        <section id="hero" class="hero-section">
+            <div class="hero-title">
+                <h1 class="First-title">
+                    GLOBAL</h1>
+                <h2 class="second-title">
                     FRAUD INTTELIGENCE
-                </h1>
-                <p class="text-lg text-center mx-auto lg:text-start lg:text-2xl py-3 lg:mr-[40%]">we aim to source and
+                </h2>
+                <p class="first-paragraph">we aim to source and
                     deliver
                     targeted fraud intelligence to
                     our
                     clients, which allows them to significantly improve their fraud
                     detection results and reduce losses.
                 </p>
-                <div class="z-0 flex p-4 justify-center lg:justify-start">
-                    <div class="px-2 lg:px-4 ">
-                        <button
-                            class="text-sm lg:text-lg font-medium text-white bg-orange-500 border-2 border-orange-500 px-12 lg:px-12 lg:py-2 rounded-full hover:text-orange-500 group relative flex items-center overflow-hidden">
-                            <span
-                                class="absolute left-0 w-full h-0 transition-all bg-white opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
+                <div class="btn-container">
+                    <div class="btn">
+                        <button class="btn-orange">
+                            <span class="btn-orange-hover"></span>
                             <span class="relative">CONTACT US</span>
                         </button>
                     </div>
-                    <div class="px-2 lg:px-4">
-                        <button
-                            class="text-sm lg:text-lg font-medium text-black bg-white border-2 lg:px12 px-12 lg:py-2 rounded-full hover:text-white group relative flex items-center overflow-hidden">
-                            <span
-                                class="absolute left-0 w-full h-0 transition-all bg-orange-500 opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
+                    <div class="btn">
+                        <button class="btn-white">
+                            <span class="btn-white-hover"></span>
                             <span class="relative">ABOUT US</span>
                         </button>
                     </div>
