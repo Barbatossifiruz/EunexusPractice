@@ -87,3 +87,15 @@ body {
 }
 
 /* ! Hero Section */
+
+/* ! About Section */
+
+#about {
+    background-image: url(../assets/img/about-background.gif);
+    background-size: 800px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ! About Section */
