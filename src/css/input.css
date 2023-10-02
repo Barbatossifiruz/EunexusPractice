@@ -93,7 +93,7 @@ body {
 #about {
     background-image: url(../assets/img/about-background.gif);
     background-size: 800px;
-    height: 600px;
+    height: 950px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -101,7 +101,7 @@ body {
 /* ! About Section */
 
 .about-section {
-    @apply w-full h-auto p-4 lg:p-[9rem] grid grid-cols-2 lg:gap-2;
+    @apply w-screen h-[600px] p-4 lg:p-[9rem] grid grid-cols-2 lg:gap-2;
 }
 
 .about-container-001 {
@@ -128,7 +128,7 @@ body {
 }
 
 .about-img {
-    @apply my-2 max-w-lg mx-2 shrink-0;
+    @apply my-2 max-w-lg max-h-[370px] mx-2 shrink-0;
 }
 
 .about-div-001 {
