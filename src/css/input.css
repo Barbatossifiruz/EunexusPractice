@@ -142,3 +142,152 @@ body {
 .about-p-002 {
     @apply text-gray-400 text-[10px] md:text-sm lg:text-sm font-medium;
 }
+
+/* ! Service Section */
+
+.service-section {
+    @apply w-screen h-auto pt-[40px] bg-gray-100;
+}
+
+.title-service {
+    @apply uppercase text-center text-xl md:text-4xl p-2;
+}
+
+.p-service-001 {
+    @apply text-center text-lg py-4 md:w-[40%] mx-auto text-gray-500;
+}
+
+.card-container {
+    @apply grid grid-cols-4 pb-[30px] mx-auto md:flex gap-0 md:gap-4 m-4 md:justify-center;
+}
+
+.card {
+    @apply w-full p-4 md:w-[300px] col-start-1 col-end-5 md:col-start-1 md:col-end-3 bg-white rounded-sm;
+}
+
+.card-img {
+    @apply mx-auto p-4;
+}
+
+.card-title {
+    @apply text-xl font-semibold text-center p-2;
+}
+
+.card-p {
+    @apply text-center text-lg text-gray-700 shrink-0;
+}
+
+/* ! intelligence Section */
+
+#card-bg-001 {
+    background-image: url(../assets/img/bg-card-001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply backdrop-brightness-50 bg-black/10;
+}
+#card-bg-002 {
+    background-image: url(../assets/img/bg-card-002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply backdrop-brightness-50 bg-black/10;
+}
+#card-bg-003 {
+    background-image: url(../assets/img/bg-card-003.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply backdrop-brightness-50 bg-black/10;
+}
+#card-bg-004 {
+    background-image: url(../assets/img/bg-card-004.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply backdrop-brightness-50 bg-black/10;
+}
+
+.intelligence-section {
+    @apply w-screen h-[700px] mt-[10px] p-4 lg:p-[9rem] grid grid-cols-2 lg:gap-2;
+}
+
+.intelligence-container-001 {
+    @apply col-span-2 xl:col-span-1 items-center mx-2 my-auto;
+}
+
+.intelligence-container-002 {
+    @apply col-span-2 xl:col-span-1 mt-10 flex float-right my-auto;
+}
+
+.intelligence-btn {
+    @apply flex mx-auto p-4 text-sm lg:text-lg text-black bg-white border-2 border-gray-700  px-6 lg:py-2 rounded-full hover:border-orange-600 transition delay-150 duration-300 ease-in-out hover:text-orange-400 overflow-hidden;
+}
+
+.card-container-intelligence {
+    @apply w-full grid grid-cols-2 gap-4;
+}
+
+/* Card h2 & icon */
+.card-icon {
+    @apply text-white text-[70px] flex mx-auto p-2;
+}
+
+.card-h2 {
+    @apply text-2xl text-white text-center pb-2;
+}
+
+/* Card 001 */
+.card-container-int-001 {
+    @apply w-[150px] md:w-[300px] justify-self-end h-auto rounded-sm backdrop-brightness-50;
+}
+
+.card-int-001 {
+    @apply w-[150px] md:w-[300px] justify-self-end h-auto rounded-sm backdrop-brightness-50 bg-black/40;
+}
+/* Card 002 */
+.card-container-int-002 {
+    @apply w-[150px] md:w-[300px] justify-self-start h-auto rounded-sm backdrop-brightness-50;
+}
+
+.card-int-002 {
+    @apply w-[150px] md:w-[300px] justify-self-end h-auto rounded-sm backdrop-brightness-50 bg-black/40;
+}
+/* Card 003 */
+.card-container-int-003 {
+    @apply w-[150px] md:w-[300px] justify-self-end h-auto rounded-sm backdrop-brightness-50;
+}
+
+.card-int-003 {
+    @apply w-[150px] md:w-[300px] justify-self-end h-auto rounded-sm backdrop-brightness-50 bg-black/40;
+}
+/* Card 004 */
+.card-container-int-004 {
+    @apply w-[150px] md:w-[300px] justify-self-start h-auto rounded-sm backdrop-brightness-50;
+}
+
+.card-int-004 {
+    @apply w-[150px] md:w-[300px] justify-self-end h-auto rounded-sm backdrop-brightness-50 bg-black/40;
+}
+
+/* Intelligence Container */
+
+.int-container-002 {
+    @apply md:pl-1 xl:pl-[40px] lg:p-5;
+}
+
+.int-tittle {
+    @apply text-5xl uppercase flex justify-center xl:justify-start text-center xl:text-[80px] xl:text-start md:text-6xl;
+}
+
+.int-p {
+    @apply text-xl flex justify-center text-center p-5 lg:text-start md:text-xl;
+}
+
+.int-ul {
+    @apply flex flex-col pl-0 py-[30px];
+}
+
+.int-li {
+    @apply md:px-[30px]  mx-auto font-semibold xl:mx-0 text-xl text-gray-800 p-4;
+}
+
+.int-li-icon {
+    @apply text-orange-500  inline-block align-middle text-2xl;
+}
