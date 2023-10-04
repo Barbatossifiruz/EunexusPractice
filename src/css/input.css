@@ -146,7 +146,7 @@ body {
 /* ! Service Section */
 
 .service-section {
-    @apply w-screen h-[1000px] pt-[40px] bg-gray-100;
+    @apply w-screen h-auto pt-[40px] bg-gray-100;
 }
 
 .title-service {
@@ -158,11 +158,11 @@ body {
 }
 
 .card-container {
-    @apply grid grid-cols-4 mx-auto md:flex gap-0 md:gap-4 m-4 md:justify-center;
+    @apply grid grid-cols-4 pb-[30px] mx-auto md:flex gap-0 md:gap-4 m-4 md:justify-center;
 }
 
 .card {
-    @apply w-full p-4 md:w-[300px] col-start-1 col-end-5 bg-white rounded-sm;
+    @apply w-full p-4 md:w-[300px] col-start-1 col-end-5 md:col-start-1 md:col-end-3 bg-white rounded-sm;
 }
 
 .card-img {
@@ -175,4 +175,47 @@ body {
 
 .card-p {
     @apply text-center text-lg text-gray-700 shrink-0;
+}
+
+/* ! intelligence Section */
+
+#card-bg-001 {
+    background-image: url(../assets/img/bg-card-001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply backdrop-brightness-50 bg-black/10;
+}
+#card-bg-002 {
+    background-image: url(../assets/img/bg-card-002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply backdrop-brightness-50 bg-black/10;
+}
+#card-bg-003 {
+    background-image: url(../assets/img/bg-card-003.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply backdrop-brightness-50 bg-black/10;
+}
+#card-bg-004 {
+    background-image: url(../assets/img/bg-card-004.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply backdrop-brightness-50 bg-black/10;
+}
+
+.intelligence-section {
+    @apply w-screen h-[700px] mt-[10px] p-4 lg:p-[9rem] grid grid-cols-2 lg:gap-2;
+}
+
+.intelligence-container-001 {
+    @apply col-span-2 xl:col-span-1 items-center mx-2 my-auto;
+}
+
+.intelligence-container-002 {
+    @apply col-span-2 xl:col-span-1 mt-10 flex float-right my-auto;
+}
+
+.intelligence-btn {
+    @apply flex mx-auto p-4 text-sm lg:text-lg text-black bg-white border-2 border-gray-700  px-6 lg:py-2 rounded-full hover:border-orange-600 transition delay-150 duration-300 ease-in-out hover:text-orange-400 overflow-hidden;
 }
