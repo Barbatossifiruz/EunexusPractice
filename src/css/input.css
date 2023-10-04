@@ -219,3 +219,75 @@ body {
 .intelligence-btn {
     @apply flex mx-auto p-4 text-sm lg:text-lg text-black bg-white border-2 border-gray-700  px-6 lg:py-2 rounded-full hover:border-orange-600 transition delay-150 duration-300 ease-in-out hover:text-orange-400 overflow-hidden;
 }
+
+.card-container-intelligence {
+    @apply w-full grid grid-cols-2 gap-4;
+}
+
+/* Card h2 & icon */
+.card-icon {
+    @apply text-white text-[70px] flex mx-auto p-2;
+}
+
+.card-h2 {
+    @apply text-2xl text-white text-center pb-2;
+}
+
+/* Card 001 */
+.card-container-int-001 {
+    @apply w-[150px] md:w-[300px] justify-self-end h-auto rounded-sm backdrop-brightness-50;
+}
+
+.card-int-001 {
+    @apply w-[150px] md:w-[300px] justify-self-end h-auto rounded-sm backdrop-brightness-50 bg-black/40;
+}
+/* Card 002 */
+.card-container-int-002 {
+    @apply w-[150px] md:w-[300px] justify-self-start h-auto rounded-sm backdrop-brightness-50;
+}
+
+.card-int-002 {
+    @apply w-[150px] md:w-[300px] justify-self-end h-auto rounded-sm backdrop-brightness-50 bg-black/40;
+}
+/* Card 003 */
+.card-container-int-003 {
+    @apply w-[150px] md:w-[300px] justify-self-end h-auto rounded-sm backdrop-brightness-50;
+}
+
+.card-int-003 {
+    @apply w-[150px] md:w-[300px] justify-self-end h-auto rounded-sm backdrop-brightness-50 bg-black/40;
+}
+/* Card 004 */
+.card-container-int-004 {
+    @apply w-[150px] md:w-[300px] justify-self-start h-auto rounded-sm backdrop-brightness-50;
+}
+
+.card-int-004 {
+    @apply w-[150px] md:w-[300px] justify-self-end h-auto rounded-sm backdrop-brightness-50 bg-black/40;
+}
+
+/* Intelligence Container */
+
+.int-container-002 {
+    @apply md:pl-1 xl:pl-[40px] lg:p-5;
+}
+
+.int-tittle {
+    @apply text-5xl uppercase flex justify-center xl:justify-start text-center xl:text-[80px] xl:text-start md:text-6xl;
+}
+
+.int-p {
+    @apply text-xl flex justify-center text-center p-5 lg:text-start md:text-xl;
+}
+
+.int-ul {
+    @apply flex flex-col pl-0 py-[30px];
+}
+
+.int-li {
+    @apply md:px-[30px]  mx-auto font-semibold xl:mx-0 text-xl text-gray-800 p-4;
+}
+
+.int-li-icon {
+    @apply text-orange-500  inline-block align-middle text-2xl;
+}
