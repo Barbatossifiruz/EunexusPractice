@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eunexus Enterprice</title>
+    <!--! TaildwindCss post styles -->
     <link href="/dist/output.css" rel="stylesheet">
-    <link href="/src/css/input.css" rel="stylesheet">
+    <!--! Main Styles -->
+    <link href="/src/css/styles.css" rel="stylesheet">
     <!--! Icons - Ionic -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -251,80 +253,69 @@
             </div>
         </section>
 
-        <footer class="w-full h-auto bg-[#1d262e] pt-[60px]">
-            <div class="flex flex-col lg:flex-row w-full  justify-center">
-                <div class="px-2 w-full lg:w-[20%] ">
-                    <img class="w-[200px] h-auto p-4" src="/src/assets/img/logo-white.png" alt="Eunexus logo">
-                    <p class="text-gray-400 text-lg py-[30px] lg:py-2">Lorem ipsum dolor sit amet consectetur
+        <footer class="footer-styles">
+            <div class="footer-container">
+                <div class="footer-div-001">
+                    <img class="footer-logo" src="/src/assets/img/logo-white.png" alt="Eunexus logo">
+                    <p class="footer-p">Lorem ipsum dolor sit amet consectetur
                         adipisicing elit.
                         Perferendis
                         quidem et
                         numquam
                         necessitatibus, nobis libero praesentium natus eius similique saepe?</p>
                 </div>
-                <div class="grid-cols-1 grid md:grid-cols-3 gap-4 w-full px-2 lg:w-[40%]">
-                    <div class="col-span-3 md:col-span-2 lg:col-span-1">
-                        <label class="text-white text-xl font-medium py-2">Email</label>
-                        <a class="text-gray-400 text-lg flex p-2" href="#">info@email.com</a>
+                <div class="footer-div-002">
+                    <div class="email-div">
+                        <label class="email-label">Email</label>
+                        <a class="footer-a" href="#">info@email.com</a>
                     </div>
-                    <div class="col-span-3 md:col-span-1 lg:col-span-1">
-                        <label class="text-white text-xl font-medium py-2">Phone</label>
-                        <a class="text-gray-400 text-lg flex p-2" href="#">(206) 342-8631</a>
+                    <div class="phone-div">
+                        <label class="phone-label">Phone</label>
+                        <a class="footer-a" href="#">(206) 342-8631</a>
                     </div>
-                    <div class="col-span-3 md:col-span-2 lg:col-span-1">
-                        <label class="text-white text-xl font-medium py-2">Follow Us</label>
+                    <div class="follow-div">
+                        <label class="follow-label">Follow Us</label>
                         <div class="py-2">
-                            <input type="email" name="input1" id="input1"
-                                class=" bg-white rounded-2xl border-transparent py-1 text-gray-600 px-4 focus:outline-none"
-                                placeholder="Contact us">
+                            <input type="email" name="input1" class="follow-input" placeholder="Contact us">
                         </div>
-                        <div class="text-3xl p-2 text-gray-300 ">
+                        <div class="follow-icons-div">
                             <a href="https://github.com/Barbatossifiruz">
-                                <ion-icon
-                                    class="hover:border-orange-600 transition delay-150 duration-300 ease-in-out hover:text-orange-400 overflow-hidden"
-                                    name="logo-github"></ion-icon>
+                                <ion-icon class="follow-icon-hover" name="logo-github"></ion-icon>
                             </a>
                             <a href="https://www.linkedin.com/in/barbatossifiruz/">
-                                <ion-icon
-                                    class="hover:border-orange-600 transition delay-150 duration-300 ease-in-out hover:text-orange-400 overflow-hidden"
-                                    name="logo-linkedin"></ion-icon>
+                                <ion-icon class="follow-icon-hover" name="logo-linkedin"></ion-icon>
                             </a>
                             <a href="#">
-                                <ion-icon
-                                    class="hover:border-orange-600 transition delay-150 duration-300 ease-in-out hover:text-orange-400 overflow-hidden"
-                                    name="logo-facebook"></ion-icon>
+                                <ion-icon class="follow-icon-hover" name="logo-facebook"></ion-icon>
                             </a>
-                            <a href="#">
-                                <ion-icon
-                                    class="hover:border-orange-600 transition delay-150 duration-300 ease-in-out hover:text-orange-400 overflow-hidden"
-                                    name="logo-twitter"></ion-icon>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                                <ion-icon class="follow-icon-hover" name="logo-youtube"></ion-icon>
                             </a>
                         </div>
                     </div>
-                    <div class="col-span-3 md:col-span-1 lg:col-span-2 py-3">
-                        <label class=" text-white text-xl font-medium py-2">Adress</label>
-                        <a class="text-gray-400 text-lg flex p-1" href="#">740 Smithfield Avenue</a>
-                        <a class="text-gray-400 text-lg flex p-1" href="#">4241 Eagles Nest Drive</a>
-                        <a class="text-gray-400 text-lg flex p-1" href="#">218 Point Street</a>
+                    <div class="adress-div">
+                        <label class="adress-label">Adress</label>
+                        <a class="adress-a" href="#">740 Smithfield Avenue</a>
+                        <a class="adress-a" href="#">4241 Eagles Nest Drive</a>
+                        <a class="adress-a" href="#">218 Point Street</a>
                     </div>
                 </div>
             </div>
         </footer>
-        <div class="w-full h-auto bg-[#141c24]">
-            <div class="text-[10px] flex  md:flex-row justify-center md:text-lg text-gray-400 p-2">
+        <div class="copyright-container">
+            <div class="copyright-div">
                 © Copyright 2023&ensp;
-                <span class="text-[10px] md:text-xl text-orange-500">&ensp;Eunexus-Practice</span>&ensp;Recreating by
-                <a class="text-green-400" href="https://github.com/Barbatossifiruz">&ensp;BarbatosSifiruz
+                <span class="copyright-name">&ensp;Eunexus-Practice</span>&ensp;Recreating by
+                <a class="git-name" href="https://github.com/Barbatossifiruz">&ensp;BarbatosSifiruz
                 </a>
-                <ion-icon class="text-green-400 text-[10px] md:text-2xl flex px-1 " name="code-working"></ion-icon>
-
+                <ion-icon class="code-icon" name="code-working"></ion-icon>
             </div>
-
         </div>
+
 
     </header>
 
-
+    <!--* Js local Scripts -->
     <script src="/src/js/main.js"></script>
 
 </body>
