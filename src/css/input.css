@@ -162,7 +162,7 @@ body {
 }
 
 .card {
-    @apply w-full p-4 md:w-[300px] col-start-1 col-end-5 md:col-start-1 md:col-end-3 bg-white rounded-sm;
+    @apply w-full p-4 md:w-[300px] col-start-1 col-end-5 md:col-start-1 md:col-end-3 bg-white rounded-sm drop-shadow-lg;
 }
 
 .card-img {
@@ -205,7 +205,7 @@ body {
 }
 
 .intelligence-section {
-    @apply w-screen h-[700px] mt-[10px] p-4 lg:p-[9rem] grid grid-cols-2 lg:gap-2;
+    @apply w-screen h-auto mt-[10px] p-4  grid grid-cols-2 lg:gap-2;
 }
 
 .intelligence-container-001 {
